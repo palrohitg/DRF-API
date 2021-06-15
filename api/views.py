@@ -12,7 +12,7 @@ from .models import Blog
 def apiOverview(request):
 	api_urls = {
 		'List': 'api/blog-list/', 
-		'Detail View': 'api/blog-detail/<str: pk>/',
+		'Detail View': 'api/blog-details/<str: pk>/',
 		'Create': 'api/blog-create/',
 		'Update': 'api/blog-update/<str:pk>', 
 		'Delete': 'api/blog-delete/<str:pk>', 
