@@ -17,6 +17,9 @@ Django Rest Framework is a standard ways to build the REST API. This application
 
  
 ## :pencil2: Features 
+* [Function Based Views](https://github.com/palrohitg/DRF-API/blob/main/api/views.py)
+* [Class Based Views](https://github.com/palrohitg/DRF-API/blob/main/api_class_view/views.py)
+* [Generic Views](https://github.com/palrohitg/DRF-API/blob/main/generic_view_api/views.py)
 
 Here follows a list API endpoints:
 ```python
