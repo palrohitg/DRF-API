@@ -12,7 +12,7 @@ Django Rest Framework is a standard ways to build the REST API. This application
 * Django 
 * DRF(Django Rest Frameworks)
 * Python
-
+* Swagger IO(Documentation)
 
 
  
@@ -34,6 +34,13 @@ Here follows a list API endpoints:
  
 
 ## :bow_and_arrow: Snapshot: 
+
+![sw1](https://user-images.githubusercontent.com/40069230/122187641-d64d0280-ceac-11eb-96b0-db664e18784c.png)
+
+![sw2](https://user-images.githubusercontent.com/40069230/122187702-e7960f00-ceac-11eb-8dd5-c17a653784cb.png)
+
+![sw3](https://user-images.githubusercontent.com/40069230/122187745-f4b2fe00-ceac-11eb-9525-ea0ed7d28f05.png)
+
 
 ![apiOverview](https://user-images.githubusercontent.com/40069230/121478689-ea918b00-c9e6-11eb-9d4e-86ab2559cc71.png)
 
