@@ -57,7 +57,7 @@ class BlogDetails(APIView):
 		serializer = BlogSerializer(blog, data=request.data, partial = True)
 		if serializer.is_valid():
 			serializer.save()
-			return Respone(serializer.data)
+			return Response(serializer.data)
 		return Response(serializer.errors, status = status.HTTP_400_BAD_REQUEST)
 
 
