@@ -13,6 +13,7 @@ Django Rest Framework is a standard ways to build the REST API. This application
 * DRF(Django Rest Frameworks)
 * Python
 * Swagger IO(Documentation)
+* Docker
 
 
  
