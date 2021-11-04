@@ -128,3 +128,52 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+EMAIL_BACKEND = 'django_smtp_ssl.SSLEmailBackend'
+
+# These are optional -- if they're set as environment variables they won't
+# need to be set here as well
+
+EMAIL_BACKEND = 'django_smtp_ssl.SSLEmailBackend'
+
+
+"""Previous Used mail setups services"""
+# AWS_ACCESS_KEY_ID = "AKIAIF7HM32FWZ35K2CA"
+# AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID="AKIAVQQCVU6UWRR5QQGT "
+AWS_SECRET_ACCESS_KEY="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"
+AWS_DEFAULT_REGION="ap-south-1"
+
+
+
+EMAIL_HOST = "email-smtp.ap-south-1.amazonaws.com"
+EMAIL_PORT = 465
+EMAIL_HOST_USER = "AKIAVQQCVU6UYG45R5OV"
+EMAIL_HOST_PASSWORD = "BKXOiM3Tk1m9HLUaOlXtZg6U9jbAakMNayVZol+TI1vz"
+EMAIL_USE_TLS = True
+
+
+
+# Additionally, if you are not using the default AWS region of us-east-1,
+# you need to specify a region, like so:
+# EMAIL_HOST = ""
+# AWS_SES_REGION_NAME = 'ap-south-1'
+# AWS_SES_REGION_ENDPOINT = 'email-smtp.ap-south-1.amazonaws.com '
+
+
+# https://www.mindbowser.com/sending-email-templates-using-amazon-ses-with-django-rest-framework/
+
+
+"""
+
+from django.core.mail import send_mail
+
+send_mail(
+    'Subject here',
+    'sdfdsf is the message.',
+    'support@myparkplus.com',
+    ['vikas.pal@myparkplus.com']
+)
+
+"""

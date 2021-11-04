@@ -1,0 +1,8 @@
+<!-- 
+
+export AWS_ACCESS_KEY_ID=AKIAVQQCVU6UWRR5QQGT 
+export AWS_SECRET_ACCESS_KEY=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
+export AWS_DEFAULT_REGION=ap-south-1 
+
+
+-->
