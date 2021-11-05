@@ -34,12 +34,12 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('api.urls')),
-    path('api-class-view/', include('api_class_view.urls')),
-    path('api-generic-view/', include('generic_view_api.urls')),
-    path('', schema_view.with_ui('swagger', cache_timeout=0),
+    path('api/', include('api.urls')), # ! simple api urls 
+    path('api-class-view/', include('api_class_view.urls')), # ! class based urls 
+    path('api-generic-view/', include('generic_view_api.urls')), # ! generic api view urls 
+    path('', schema_view.with_ui('swagger', cache_timeout=0), # ! swagger ui for get reponse only 
          name='schema-swagger-ui'),
-    path('redoc/', schema_view.with_ui('redoc',
+    path('redoc/', schema_view.with_ui('redoc', # ! redoc of swagger ui 
          cache_timeout=0), name='schema-redoc'),
 
 ]

@@ -68,14 +68,4 @@ def blogDelete(request, pk):
     blog = Blog.objects.get(id=pk)
     blog.delete()
     return Response(status=status.HTTP_204_NO_CONTENT)
-
-
-@api_view(['GET'])
-def email(request):
-    send_mail(
-        'Subject here',
-        'sdfdsf is the message.',
-        'support@myparkplus.com',
-        ['vikas.pal@myparkplus.com']
-    )
-    return Response(status=status.HTTP_204_NO_CONTENT)
+    
